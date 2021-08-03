@@ -20,6 +20,8 @@
 		D3D69E4226B96DA800F2AB38 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69E4126B96DA800F2AB38 /* Database.swift */; };
 		D3D69E4E26B96DCF00F2AB38 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69E4D26B96DCF00F2AB38 /* Movie.swift */; };
 		D3D69E5326B96E4000F2AB38 /* DatabaseUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69E5226B96E4000F2AB38 /* DatabaseUserDefault.swift */; };
+		D3D69E5A26B96F2B00F2AB38 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69E5926B96F2B00F2AB38 /* Repository.swift */; };
+		D3D69E6226B970CF00F2AB38 /* OMDbRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69E6126B970CF00F2AB38 /* OMDbRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D3D69E4126B96DA800F2AB38 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		D3D69E4D26B96DCF00F2AB38 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D3D69E5226B96E4000F2AB38 /* DatabaseUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseUserDefault.swift; sourceTree = "<group>"; };
+		D3D69E5926B96F2B00F2AB38 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		D3D69E6126B970CF00F2AB38 /* OMDbRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDbRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		D3D69DEA26B9623C00F2AB38 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
+				D3D69E5826B96F0400F2AB38 /* Repo */,
 				D3D69E4926B96DC100F2AB38 /* Models */,
 				D3D69E4026B96D7900F2AB38 /* Database */,
 				D3D69E2E26B96AB500F2AB38 /* ViewModels */,
@@ -173,6 +178,15 @@
 				D3D69E4D26B96DCF00F2AB38 /* Movie.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D3D69E5826B96F0400F2AB38 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				D3D69E5926B96F2B00F2AB38 /* Repository.swift */,
+				D3D69E6126B970CF00F2AB38 /* OMDbRepository.swift */,
+			);
+			path = Repo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,9 +324,11 @@
 				D3D69E2A26B9688F00F2AB38 /* SearchViewController.swift in Sources */,
 				D3D69E3926B96B7F00F2AB38 /* MovieViewModel.swift in Sources */,
 				D3D69DEC26B9623C00F2AB38 /* AppDelegate.swift in Sources */,
+				D3D69E6226B970CF00F2AB38 /* OMDbRepository.swift in Sources */,
 				D3D69E5326B96E4000F2AB38 /* DatabaseUserDefault.swift in Sources */,
 				D3D69E3026B96AED00F2AB38 /* SearchViewModel.swift in Sources */,
 				D3D69DEE26B9623C00F2AB38 /* SceneDelegate.swift in Sources */,
+				D3D69E5A26B96F2B00F2AB38 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
