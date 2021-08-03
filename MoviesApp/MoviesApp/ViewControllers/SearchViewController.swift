@@ -12,6 +12,8 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var searchbar: UISearchBar!
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var viewModel: SearchViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
